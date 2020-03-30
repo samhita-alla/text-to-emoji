@@ -1,0 +1,13 @@
+{% for each_word in answer %}
+{% if words_set[loop.index-1] in possible_emojis %}
+    <select class='select-dropdown'>
+        {% for each_emoji in possible_emojis[words_set[loop.index-1]] %}
+        {% if each_emoji != None %}
+            <option>{{each_emoji}}</option>
+        {% endif %}
+        {% endfor %}
+    </select>
+{% else %}
+{{each_word}}
+{% endif %}
+{% endfor %}

@@ -9,4 +9,4 @@ Then go to, `localhost:5000`
 
 There it is!
 
-Inspired from - [emoji-translate](https://github.com/notwaldorf/emoji-translate)
+Inspired by - [emoji-translate](https://github.com/notwaldorf/emoji-translate)
